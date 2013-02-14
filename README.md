@@ -4,7 +4,7 @@
 
 ## Golden rule
 
-> Checker tous les navigateurs (ie > 7, safari, firefox > 3.2, chrome)
+> Checker tous les navigateurs (ie > 7, safari, firefox > 3.2, chrome) sous windows et mac 
 
 
 ----------
