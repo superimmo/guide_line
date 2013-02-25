@@ -23,6 +23,7 @@
 * Nested elements doivent être indenté de 2 espace
 * Toujours utilisé des double quote ("), jamais des simple
 * Ne jamais fermer les element simple avec un back slash
+* aucun commentaire IE après dans le body
 
 **Exemple incorrecte:**
 
@@ -79,6 +80,14 @@ Example
 <a class="" id="" data-modal="" href="">Exemple link</a>
 ````
 
+
+Encodage :
+
+* fichier en utf8
+* fin de ligne en LF
+* accents non encodé en html
+
+
 ----------
 
 
@@ -99,6 +108,7 @@ Example
 * Ecrire #fff au lieu de #FFFFFF
 * Mettre en double quote les attribut des les selectore.g., <code>input[type="text"]</code>
 * Ne pas spécifier l'unité pour les valeurs égales à 0
+* Tous en anglais
 
 **Exemple incorrect :**
 
