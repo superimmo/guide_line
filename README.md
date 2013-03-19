@@ -124,6 +124,51 @@ Example
 }
 ````
 
+### Utilisation des font
+
+Télécharger la font sur google font
+
+Pour chaque font,  utiliser  http://www.fontsquirrel.com/tools/webfont-generator
+
+Si la font est composé de multiple fichier (normal, italic et bold), utiliser le même nom et jouer sur "font-weight" et/ou "font-style"
+
+````css
+@font-face {
+   font-family: 'OpenSans';
+   src: url('/assets/frontend/fonts/opensans-condlight-webfont.eot');
+   src: url('/assets/frontend/fonts/opensans-condlight-webfont.eot?#iefix') format('embedded-opentype'),
+        url('/assets/frontend/fonts/opensans-condlight-webfont.woff') format('woff'),
+        url('/assets/frontend/fonts/opensans-condlight-webfont.ttf') format('truetype'),
+        url('/assets/frontend/fonts/opensans-condlight-webfont.svg#open_sanscondensed_light') format('svg');
+   font-weight: 300;
+   font-style: normal;
+}
+
+
+@font-face {
+   font-family: 'OpenSans';
+   src: url('/assets/frontend/fonts/opensans-condbold-webfont.eot');
+   src: url('/assets/frontend/fonts/opensans-condbold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('/assets/frontend/fonts/opensans-condbold-webfont.woff') format('woff'),
+        url('/assets/frontend/fonts/opensans-condbold-webfont.ttf') format('truetype'),
+        url('/assets/frontend/fonts/opensans-condbold-webfont.svg#open_sans_condensedbold') format('svg');
+   font-weight: bold;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'OpenSans';
+   src: url('/assets/frontend/fonts/opensans-webfont.eot');
+   src: url('/assets/frontend/fonts/opensans-webfont.eot?#iefix') format('embedded-opentype'),
+        url('/assets/frontend/fonts/opensans-webfont.woff') format('woff'),
+        url('/assets/frontend/fonts/opensans-webfont.ttf') format('truetype'),
+        url('/assets/frontend/fonts/opensans-webfont.svg#open_sansregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+````
+
 
 ### Ordre des déclarations
 
