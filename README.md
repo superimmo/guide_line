@@ -12,7 +12,7 @@
 ## Avant propos
 
 > L'utilisation de [less](http://lesscss.org) pour organiser les fichiers est vivement recomandé
-> Se baser sur le bootstrap de twitter est vivement recommandé [twitter](http://twitter.github.com/bootstrap/)
+> Se baser sur le bootstrap de twitter est vivement recommandé [twitter](http://getbootstrap.com/)
 
 ## HTML
 
